@@ -4,32 +4,30 @@ import java.util.Arrays;
 
 public class varArgs {
     public static void main(String[] args) {
-       // fun(7,3,4,5,6,1,8,9,2);
-       // multi(2,5,5,6,7,7,8,6,5);
-        diff(83, "Casey", "david");
+        varInt(90, 80, 70, 60, 50, 40);
+       varINT2(10, 25, 3,5,6,78,5);
+        diffPARA(83, "Casey", "david");
 
     }
 
-    static void diff(int a, String...v) {
+    static void diffPARA(int a, String...v) {
+        System.out.println("Method 3");
         System.out.println(a);
-        System.out.println(Arrays.toString(v));
+        System.out.println("String array is" + Arrays.toString(v));
     }
 
-    static void multi(int a, int b, int...v) {
-        System.out.println(a);
+    static void varINT2(int a, int b, int...v) {
+        System.out.println("Method 2 ");
+        System.out.print(a + "\t");
         System.out.println(b);
-        System.out.println(Arrays.toString(v));
+        System.out.println("Array = " + Arrays.toString(v));
     }
 
-    static void fun(int...var) {
-        Arrays.sort(var);
-        System.out.println(Arrays.toString(var));
-
+    static void varInt(int...var) {
+        System.out.println("Method 1");
+        System.out.println("Array = " + Arrays.toString(var));
     }
 }
-
-
-
 
 /*
                      VARIABLE LENGTH ARGUMENTS
