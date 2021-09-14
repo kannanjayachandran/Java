@@ -1,12 +1,15 @@
-package com.First;
 
 import java.util.Scanner; // Where scanner is located
 
 public class input {
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in); //input is just a name.
+
         System.out.println("Enter an integer: ");
+
         int num = input.nextInt();
+
         System.out.println("You have entered: " + num);
 
     }

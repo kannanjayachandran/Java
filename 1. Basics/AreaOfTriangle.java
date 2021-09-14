@@ -1,19 +1,20 @@
-package com.First;
 
 import java.util.Scanner;
 
 public class AreaOfTriangle {
     public static void main(String[] args) {
 
+        //Taking height and weight.
         Scanner in = new Scanner(System.in);
-
+        System.out.println("Enter base");
         int base = in.nextInt();
+        System.out.println("Enter height");
         int height = in.nextInt();
 
         int area = (base*height)/2;
 
-        System.out.println(area);
+        System.out.println("Area of the Triangle is : " + area);
     }
 }
 
-// Area of a triangle..
+// Area of a triangle.

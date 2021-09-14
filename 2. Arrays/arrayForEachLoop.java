@@ -1,14 +1,10 @@
-package com.arrays;
 
-
-
-public class array3 {
+public class arrayForEachLoop {
     public static void main(String[] args) {
         int []arr = new int[5];
 
-
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = i;
+            arr[i] = i; // Populating array with 0,1,2,3,4
         }
         for (int i : arr) {       // For every i (element)  in arr {print the element}
             System.out.print(i);
@@ -16,5 +12,5 @@ public class array3 {
     }
     }
 
-//   Enhanced for loop:
+//   Enhanced for loop: For each loop
 // for (dataType Element of array(The reference variable) : Name of array)  {}

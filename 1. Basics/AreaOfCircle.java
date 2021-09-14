@@ -1,4 +1,3 @@
-package com.First;
 
 import java.util.Scanner;
 
@@ -11,6 +10,10 @@ public class AreaOfCircle {
         int r = in.nextInt();  // Taking radius
         double area = Pi*(Math.pow(r, 2));  // Math.pow ; A func for powering.
 
-        System.out.println(area);
+        System.out.println("Area of the Circle is " + area);
     }
 }
+
+/*
+ AREA OF A CIRCLE
+ */

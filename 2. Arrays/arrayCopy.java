@@ -1,11 +1,8 @@
-package com.arrays;
 
 import java.util.Arrays;
 
-public class array6 {
+public class arrayCopy {
     public static void main(String[] args) {
-        int []ar = {12, 23, 45, 87, 87};  // While directly assigning the values we don't need to add new[].
-        System.out.println(Arrays.toString(ar));
 
         // Copying the elements of an array to another.
         String []arr = {"Alternative","use" ,"the" ,"shortcut", "syntax",
@@ -13,13 +10,8 @@ public class array6 {
         String []brr = new String[7];
         System.arraycopy(arr, 3, brr, 0, 7);
         System.out.println(Arrays.toString(brr));
-
-
-
     }
 }
-
-
 
 
 /*

@@ -1,4 +1,3 @@
-package com.First;
 
 import java.util.Scanner;
 
@@ -6,20 +5,22 @@ public class SubtractProductAndSum {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
-
+        System.out.println("Enter the number");
         int a  = in.nextInt();
-
         int sum=0, product=1;
+
         while(a > 0){
             int temp = a % 10;
             sum += temp;
             product *= temp;
-
             a /= 10;
         }
-        int diff = product - sum;
-        System.out.println(diff);
 
+        System.out.println("Sum is " + sum);
+        System.out.println("Product is " + product);
+
+        int diff = product - sum;
+        System.out.println("Result" + diff);
     }
 }
 

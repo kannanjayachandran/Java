@@ -1,28 +1,29 @@
-package com.First;
 
-public class Main {
+public class HelloWorld {
+
     public static void main(String[] args) {
+
         System.out.println("Hello World!");
     }
 }
 
-// FIRST HELLO WORLD CODE IN JAVA....
+//  HELLO WORLD CODE IN JAVA....
 
 
 /*
 A list of the most important features of the Java language is given below :
- Simple
- Object-Oriented
- Portable
- Platform independent
- Secured
- Robust
- Architecture neutral
- Interpreted
- High Performance
- Multithreaded
- Distributed
- Dynamic
+ * Simple
+ * Object-Oriented
+ * Portable
+ * Platform independent
+ * Secured
+ * Robust
+ * Architecture neutral
+ * Interpreted
+ * High Performance
+ * Multithreading
+ * Distributed
+ * Dynamic
 
                             TERMINOLOGY
 

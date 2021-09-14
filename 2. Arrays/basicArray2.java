@@ -1,9 +1,8 @@
-package com.arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class array2 {
+public class basicArray2 {
     public static void main(String[] args) {
      String []arr = new String[20];
      Scanner in = new Scanner(System.in);
