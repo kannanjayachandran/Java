@@ -1,23 +1,24 @@
 package com.Practice1;
-
 import java.util.Scanner;
 
 public class AverageOfnNumbers {
     public static void main(String[] args) {
+
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Enter the numbers you want to enter: ");
-        int s =  in.nextInt();
+        System.out.println("How many numbers are there ? ");
+        int numOfTimes = in.nextInt();
         int sum = 0;
-        int temp = s;
-        while(s > 0){
-            System.out.println("Enter number: ");
+        int count = 0;
+
+        while (count < numOfTimes) {
+
+            System.out.println("Enter " + (count+1) + " number: ");
             int num = in.nextInt();
             sum += num;
-            s--;
+            count++;
         }
-        int ave  = sum/temp;
-        System.out.println(ave);
+        System.out.println("Average is " + (sum/count));
     }
 }
 
