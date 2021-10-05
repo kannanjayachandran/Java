@@ -7,7 +7,7 @@ public class AreaOfCircle {
         final float Pi = 3.14f; // Defining  Pi
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the radius: ");
-        int r = in.nextInt();  // Taking radius
+        int radius = in.nextInt();  // Taking radius
         double area = Pi*(Math.pow(r, 2));  // Math.pow ; A func for powering.
 
         System.out.println("Area of the Circle is " + area);
@@ -17,3 +17,5 @@ public class AreaOfCircle {
 /*
  AREA OF A CIRCLE
  */
+
+// 
