@@ -7,9 +7,9 @@ public class AreaOfRectangle {
         // Taking length and breadth.
         Scanner in = new Scanner(System.in);
         System.out.print("Enter length\t");
-        int l = in.nextInt();
+        int length = in.nextInt();
         System.out.print("Enter breadth\t");
-        int b = in.nextInt();
+        int breadth = in.nextInt();
 
         int area = l*b;
         System.out.println("Area = " + area);
