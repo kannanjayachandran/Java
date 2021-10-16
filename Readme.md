@@ -1,2 +1,2 @@
 # Java 
-## This contains all the  source codes of java programs i make.
+## This repository contains all the Projects, Notes, and the practice sets I have done in  Java.
