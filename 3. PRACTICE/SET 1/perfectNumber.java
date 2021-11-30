@@ -1,10 +1,11 @@
-package com.Practice1;
 
 import java.util.Scanner;
 
 public class perfectNumber {
     public static void main(String[] args) {
+
         Scanner in =new Scanner(System.in);
+
         int a = in.nextInt();
         int s = 0;
 
@@ -26,5 +27,5 @@ public class perfectNumber {
 
 /*
    PERFECT NUMBER
-
+            6 has the divisors 1,2,3 and 1+2+3 = 6 , hence a perfect number.
  */

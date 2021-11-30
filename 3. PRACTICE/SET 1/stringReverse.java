@@ -1,10 +1,11 @@
-package com.Practice1;
 
 import java.util.Scanner;
 
 public class stringReverse {
     public static void main(String[] args) {
+
         Scanner in = new Scanner(System.in);
+
         String a = in.next();
 
         StringBuilder input = new StringBuilder(a);
@@ -14,13 +15,6 @@ public class stringReverse {
 
     }
 }
-
-
-
-
-
-
-
 
 
 /*  SOME FACTS ABOUT STRINGS IN JAVA

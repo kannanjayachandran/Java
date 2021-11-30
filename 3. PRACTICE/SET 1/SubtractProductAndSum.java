@@ -20,7 +20,7 @@ public class SubtractProductAndSum {
         System.out.println("Product is " + product);
 
         int diff = product - sum;
-        System.out.println("Result" + diff);
+        System.out.println("Result is " + diff);
     }
 }
 

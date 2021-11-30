@@ -1,8 +1,6 @@
-package com.Practice1;
 
 import java.util.Scanner;
 
-// Program to convert temperature in degree celsius to Fahrenheit
 public class TempConverter {
     public static void main(String[] args) {
 
@@ -15,3 +13,5 @@ public class TempConverter {
 
     }
 }
+
+// Program to convert temperature in degree celsius to Fahrenheit

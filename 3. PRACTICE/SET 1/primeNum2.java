@@ -1,20 +1,22 @@
-package com.Practice1;
-
-
 
 import java.util.Scanner;
 
 public class primeNum2 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int a = in.nextInt();          // The name here and name in method call should be the same.
-        System.out.println(isPrime(a));
-    }
 
-    static boolean isPrime(int n){          // Here the name can be anything.
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the number: ");
+        int a = in.nextInt();
+        System.out.println(isPrime(a));
+    }// end of main
+
+    static boolean isPrime(int n){
+
         if (n == 1 || n == 0){
             return false;
         }
+
         int b=2;  // Starting to check from 2.
         while (b*b <= n) {    // because we need to only check till the square root of n ,
                               // as the same digits will repeat after that.

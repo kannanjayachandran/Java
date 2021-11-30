@@ -7,7 +7,7 @@ public class HelloWorld {
     }
 }
 
-//  HELLO WORLD CODE IN JAVA....
+//  HELLO WORLD
 
 
 /*

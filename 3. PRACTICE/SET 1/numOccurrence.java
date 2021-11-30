@@ -1,4 +1,3 @@
-package com.Practice1;
 
 import java.util.Scanner;
 
@@ -29,6 +28,6 @@ public class numOccurrence {
 
 /* A program to check the occurrence of a particular number in a large number
 
-  Here we are using the remainder method ; but we can also use logical operators to do the same.
+  Here we are using the remainder method, but we can also use logical operators to do the same.
 
  */
