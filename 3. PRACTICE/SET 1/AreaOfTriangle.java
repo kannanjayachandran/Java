@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class AreaOfTriangle {
     public static void main(String[] args) {
 
-        //Taking height and weight.
         Scanner in = new Scanner(System.in);
         System.out.println("Enter base");
         int base = in.nextInt();

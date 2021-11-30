@@ -4,18 +4,19 @@ import java.util.Scanner;
 public class AreaOfCircle {
     public static void main(String[] args) {
 
-        final float Pi = 3.14f; // Defining  Pi
         Scanner in = new Scanner(System.in);
+
+        // Defining  Pi
+        final float Pi = 3.14f;
+
         System.out.println("Enter the radius: ");
-        int radius = in.nextInt();  // Taking radius
-        double area = Pi*(Math.pow(r, 2));  // Math.pow ; A func for powering.
+        int radius = in.nextInt();
+
+        // Math.pow ; A method for finding the power.
+        double area = Pi*(Math.pow(radius, 2));
 
         System.out.println("Area of the Circle is " + area);
     }
 }
 
-/*
- AREA OF A CIRCLE
- */
-
-// 
+// Area of a circle
