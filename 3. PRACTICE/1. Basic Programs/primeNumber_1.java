@@ -1,5 +1,5 @@
 // Find whether a given number is prime or not.
-// Here we use a  optimization; instead of running the loop 'num' times we run it  num/2 times.
+// Here we use an  optimization; instead of running the loop 'num' times we run it  num/2 times.
 // Complexity is O(n/2)
 
 import java.util.Scanner;
