@@ -1,3 +1,4 @@
+// Area of a triangle.
 
 import java.util.Scanner;
 
@@ -16,4 +17,3 @@ public class AreaOfTriangle {
     }
 }
 
-// Area of a triangle.

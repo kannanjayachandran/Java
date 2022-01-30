@@ -1,3 +1,4 @@
+// Write a Program to check if the entered letter is uppercase or lowercase
 
 import java.util.Scanner;
 
@@ -22,8 +23,6 @@ public class CaseChecker {
 }
 
 /*
-Program to check if the entered letter is uppercase or lowercase
-
   next() : Finds and returns the next complete token from this scanner.
   trim() : Returns a string whose value is this string, with all leading and trailing space removed.
   charAt() : Returns the char value at the specified index.

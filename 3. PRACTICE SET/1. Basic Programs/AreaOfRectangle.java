@@ -1,3 +1,4 @@
+//  Area of a rectangle
 
 import java.util.Scanner;
 
@@ -16,4 +17,3 @@ public class AreaOfRectangle {
         System.out.println("Area = " + area);
     }
 }
-//  Area of a rectangle

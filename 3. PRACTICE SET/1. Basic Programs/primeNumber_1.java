@@ -19,7 +19,7 @@ public class primeNumber_1 {
         {
             int flag  = 0;
             for (int i = 2; i < (num/2); i++) {
-                if (num % 2 == 0)
+                if (num % i == 0)
                 {
                     System.out.println(num + " is not a prime number.");
                     flag =1;
