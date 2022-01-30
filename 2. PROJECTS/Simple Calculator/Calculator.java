@@ -69,8 +69,4 @@ public class Calculator {
              First it will ask for selecting an operator.
              If any valid operator is selected then it will ask to input two numbers and perform the operation
              if invalid operator is pressed then it will say "invalid operator"
-
-            August 20 : bug 1
-                   If you do a division with 0 as denominator then it will say " Division with  0  is not possible",
-                         but; still  give some value...  *****   Solved on August 26....
  */
