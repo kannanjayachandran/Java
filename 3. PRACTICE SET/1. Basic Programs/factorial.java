@@ -19,4 +19,3 @@ public class factorial {
         System.out.println(fct);
     }
 }
-

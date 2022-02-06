@@ -1,14 +1,17 @@
-// A program to check whether a given number is palindrome or not.
-
 import java.util.Scanner;
 
-public class palindrome {
+public class Palindrome_neg {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter the number: ");
         int num = input.nextInt();
+
+        if (num < 0){
+            System.out.println(num + " is not a palindrome number.");
+            return;
+        }
 
         int number = 0, temp, copy = num;
         while (num != 0){
@@ -21,7 +24,8 @@ public class palindrome {
 
         else System.out.println(copy + " is not a palindrome number.");
     }
+
 }
 
-//A palindrome number is a number that is same after reverse.
-// This program would consider a negative number as palindrome.
+// This is a program to check if a given number is palindrome or not.
+// If a negative number is given it would considered as a non-palindrome number.

@@ -13,7 +13,7 @@ public class fibonacci_series {
 
         int first = 0, second = 1, count = 2;
 
-        System.out.print("The series is: "+first + ", ");
+        System.out.print("The series is: "+ first + ", ");
         while (count <= num)
         {
             int temp = second;
