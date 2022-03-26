@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class palindrome {
+public class palindrome1 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -11,17 +11,19 @@ public class palindrome {
         int num = input.nextInt();
 
         int number = 0, temp, copy = num;
-        while (num != 0){
+        while (num != 0) {
             temp = num % 10;
             number = (number * 10) + temp;
             num /= 10;
         }
 
-        if (copy == number)  System.out.println(number + " is a palindrome number.");
+        if (copy == number)
+            System.out.println(number + " is a palindrome number.");
 
-        else System.out.println(copy + " is not a palindrome number.");
+        else
+            System.out.println(copy + " is not a palindrome number.");
     }
 }
 
-//A palindrome number is a number that is same after reverse.
-// This program would consider a negative number as palindrome.
+// This program would consider a negative number as palindrome; that is the sign
+// would be ignored.
