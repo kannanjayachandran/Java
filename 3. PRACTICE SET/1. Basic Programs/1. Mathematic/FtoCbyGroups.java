@@ -1,5 +1,3 @@
-package com.Practice1;
-
 import java.util.Scanner;
 
 public class FtoCbyGroups {
@@ -10,7 +8,7 @@ public class FtoCbyGroups {
         System.out.println("Enter the end value: ");
         int b = in.nextInt();
         System.out.println("Enter the Progression value: ");
-        int c =in.nextInt();
+        int c = in.nextInt();
 
         for (float i = a; i <= b; i += c) {
             int temp = (int) ((i * 9 / 5) + 32);
@@ -19,5 +17,6 @@ public class FtoCbyGroups {
     }
 }
 
-// This Programme will take min value and max value of fahrenheit temperature and a progression value also.
+// This Programme will take min value and max value of fahrenheit temperature
+// and a progression value also.
 // then it will display all the conversions in celsius .

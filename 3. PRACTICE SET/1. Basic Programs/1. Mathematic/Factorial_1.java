@@ -9,9 +9,9 @@ public class Factorial {
 
         System.out.println("Enter the number : ");
         int num = in.nextInt();
-        int fact=1;
+        int fact = 1;
 
-        while(num > 0) {
+        while (num > 0) {
             fact *= num;
             num--;
         }
@@ -19,12 +19,4 @@ public class Factorial {
     }
 }
 
-
-
-/*
-           Using for loop:
-                            for(i=a; i>0; --i){
-                                 temp *= i;
-                                 --a;
-                            }
-*/
+// Factorial of a number using while loop

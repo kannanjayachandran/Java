@@ -1,4 +1,3 @@
-package com.Practice1;
 import java.util.Scanner;
 
 public class AverageOfnNumbers {
@@ -13,12 +12,12 @@ public class AverageOfnNumbers {
 
         while (count < numOfTimes) {
 
-            System.out.println("Enter " + (count+1) + " number: ");
+            System.out.println("Enter " + (count + 1) + " number: ");
             int num = in.nextInt();
             sum += num;
             count++;
         }
-        System.out.println("Average is " + (sum/count));
+        System.out.println("Average is " + (sum / count));
     }
 }
 

@@ -2,7 +2,7 @@ package com.Practice1;
 
 import java.util.Scanner;
 
-public class Fact2Function {
+public class Factorial_function {
 
     public static void main(String[] args) {
 
@@ -15,15 +15,14 @@ public class Fact2Function {
         System.out.println(facto(num));
     }
 
-
-    static int facto(int a){
+    static int facto(int a) {
         int temp = 1;
         while (a > 0) {
             temp *= a;
-        a--;
+            a--;
         }
         return temp;
     }
 }
-// Finding factorial using a function....
-// Here the value is returned by the function.
+// Finding factorial using a function; Here the value is returned by the
+// function.

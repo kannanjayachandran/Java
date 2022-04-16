@@ -5,11 +5,12 @@ public class SubtractProductAndSum {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter the number");
-        int a  = in.nextInt();
-        int sum=0, product=1;
 
-        while(a > 0){
+        System.out.println("Enter the number");
+        int a = in.nextInt();
+        int sum = 0, product = 1;
+
+        while (a > 0) {
             int temp = a % 10;
             sum += temp;
             product *= temp;
@@ -24,10 +25,12 @@ public class SubtractProductAndSum {
     }
 }
 
-/*A program to compute the products of the digits and subtract it from the  sum of the digits...
-
-     234 : product = 24
-          Sum = 9
-         Answer = 24 - 9 = 15
-
+/*
+ * Java program to compute the products of the digits and subtract it from the
+ * sum of the digits...
+ * 
+ * 234 : product = 24
+ * Sum = 9
+ * Answer = 24 - 9 = 15
+ * 
  */
