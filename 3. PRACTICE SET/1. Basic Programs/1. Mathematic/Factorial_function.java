@@ -1,5 +1,3 @@
-package com.Practice1;
-
 import java.util.Scanner;
 
 public class Factorial_function {

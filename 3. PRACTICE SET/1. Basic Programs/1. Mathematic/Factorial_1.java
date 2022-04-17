@@ -1,8 +1,6 @@
-package com.Practice1;
-
 import java.util.Scanner;
 
-public class Factorial {
+public class Factorial_1 {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
