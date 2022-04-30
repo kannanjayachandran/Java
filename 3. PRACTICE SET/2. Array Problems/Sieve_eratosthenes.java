@@ -26,7 +26,6 @@ public class Sieve_eratosthenes {
             if (arr[i] == 1) {
                 for (int j = i * i; j <= number; j += i) {
                     arr[j] = 0;
-
                 }
             }
         }
@@ -35,7 +34,6 @@ public class Sieve_eratosthenes {
         for (int i = 1; i <= number; i++) {
             if (arr[i] == 1)
                 System.out.print(i + " ");
-
         }
     }
 }

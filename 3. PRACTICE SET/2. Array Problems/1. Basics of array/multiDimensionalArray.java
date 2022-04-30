@@ -17,7 +17,9 @@ public class multiDimensionalArray {
         }
 
         for (int[] row : arr) {
+
             for (int col : row) {
+
                 System.out.print(col + " ");
             }
             System.out.println();
