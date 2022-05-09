@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class firstDigit {
+
+    public static void main(String[] args) {
+
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the number: ");
+        int num = in.nextInt();
+        in.close();
+
+        while (num >= 10) {
+            num /= 10;
+        }
+        System.out.println("First digit is " + num);
+    }
+}
