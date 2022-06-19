@@ -156,7 +156,7 @@ class Calculator_main implements ActionListener {
     // main function
     public static void main(String[] args) {
 
-        new calc();
+        new Calculator_main();
     }
 
     // adding the body of abstract method
