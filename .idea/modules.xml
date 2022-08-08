@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1. DSA/1. DSA.iml" filepath="$PROJECT_DIR$/1. DSA/1. DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. PROJECTS/2. PROJECTS.iml" filepath="$PROJECT_DIR$/2. PROJECTS/2. PROJECTS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3. PRACTICE SET/3. Function Problems/3. Function Problems.iml" filepath="$PROJECT_DIR$/3. PRACTICE SET/3. Function Problems/3. Function Problems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3. JAVA.iml" filepath="$PROJECT_DIR$/3. JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3. PRACTICE SET/3. PRACTICE SET.iml" filepath="$PROJECT_DIR$/3. PRACTICE SET/3. PRACTICE SET.iml" />
+    </modules>
+  </component>
+</project>
