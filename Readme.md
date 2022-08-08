@@ -4,8 +4,8 @@
 
 ### Contents
 
-- [DSA](Java/1.DSA)
-- [PROJECTS](Java/2.PROJECTS)
-- [PRACTICE SETS](Java/3.PRACTICE%SETS)
-- [OOPS](Java/4.OOPS)
-- [CP](Java/5.CP)
+- [DSA](https://github.com/kannanjayachandran/Java/tree/main/1.%20DSA)
+- [PROJECTS](https://github.com/kannanjayachandran/Java/tree/main/2.%20PROJECTS)
+- [PRACTICE SETS](https://github.com/kannanjayachandran/Java/tree/main/3.%20PRACTICE%20SET)
+- [OOPS](https://github.com/kannanjayachandran/Java/tree/main/4.%20OOPS)
+- [CP](https://github.com/kannanjayachandran/Java/tree/main/5.%20%20CP)
