@@ -28,8 +28,6 @@ public class arrayInverse {
 
 /*
  * 
- * Inverse of array : if the array elements are swapped with their corresponding
- * indices and the array is called mirror-inverse if it's inverse is equal to
- * itself.
- * 
+ * Inverse of array : Array elements are swapped with their corresponding indices.
+ * The array is called mirror-inverse if it's inverse is equal to itself.
  */
