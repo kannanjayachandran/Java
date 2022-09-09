@@ -24,4 +24,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Screenshots
 
-![Image of calculator](https://github.com/kannanjayachandran/Java/blob/main/2.%20PROJECTS/Calculator/image1.png)
+![Image of calculator](https://github.com/kannanjayachandran/Java/blob/main/4.%20Projects/Calculator/image1.png)
